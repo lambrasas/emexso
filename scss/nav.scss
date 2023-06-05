@@ -1,0 +1,31 @@
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 70px;
+    padding: 0 20px;
+    max-width: 1200px;
+    margin: auto;
+    .links{
+      display: flex;
+      gap: 15px;
+      font-weight: bold;
+    }
+    .button{
+      background: $orange;
+      color: white;
+      width: 100px;
+      height: 40px;
+      border-radius: 4px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      border: 2px solid $orange;
+      transition: 0.3s;
+  
+      &:hover{
+        background: transparent;
+        color: $orange;
+      }
+    }
+  }
